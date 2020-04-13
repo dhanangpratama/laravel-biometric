@@ -8,5 +8,17 @@
             "email": "dhanangarfian@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DhanangPratama\\Biometric\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DhanangPratama\\Biometric\\Providers\\BiometricServiceProvider"
+            ]
+        }
+    }
 }
