@@ -1,0 +1,12 @@
+{
+    "name": "dhanangpratama/biometric",
+    "description": "Belajar biometric",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dhanang Pratama",
+            "email": "dhanangarfian@gmail.com"
+        }
+    ],
+    "require": {}
+}
